@@ -40,30 +40,38 @@ header {
     left: 50%;
     transform: translateX(-50%);
   }
+
+  #question {
+    position: absolute;
+    font-weight: 200;
+    font-size: 30px;
+    left: 40%;
+    visibility: hidden;
+  }
   
   #ans1 {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 500px;
     visibility: hidden;
   }
 
   #ans2 {
     position: absolute;
-    top: 78%;
+    top: 68%;
     left: 500px;
     visibility:hidden;
   }
   #ans3 {
     position: absolute;
-    top: 86%;
+    top: 76%;
     left: 500px;
     visibility:hidden;
   }
 
   #ans4 {
     position: absolute;
-    top: 94%;
+    top: 84%;
     left: 500px;
     visibility:hidden;
   }
