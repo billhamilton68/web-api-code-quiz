@@ -44,14 +44,19 @@ let startButton = document.querySelector('button');
 startButton.onclick = function() {
   //startButton.style.backgroundColor = "magenta";
   startButton.style.visibility = "hidden";
+   ans1Btn.innerHTML = "1. " + q1Option1;
+  ans2Btn.innerHTML = "2. " + q1Option2;
+  ans3Btn.innerHTML = "3. " + q1Option3;
+  ans4Btn.innerHTML = "4. " + q1Option4;
   ans1Btn.style.visibility = "visible";
   ans2Btn.style.visibility = "visible";
   ans3Btn.style.visibility = "visible";
   ans4Btn.style.visibility = "visible";
   introtxt.style.visibility = "hidden";
-  question = question4
+  question = question1
    document.querySelector("#question").style.visibility = "visible";
    document.querySelector("#question").innerHTML = question;
+   
 };
 
 function startTimer() {
