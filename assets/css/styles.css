@@ -34,6 +34,40 @@ header {
     transform: translate(-50%, -50%);
   }
   
+  #start-quiz-btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #ans1 {
+    position: absolute;
+    top: 70%;
+    left: 500px;
+    visibility: visible;
+  }
+
+  #ans2 {
+    position: absolute;
+    top: 78%;
+    left: 500px;
+    visibility:visible;
+  }
+  #ans3 {
+    position: absolute;
+    top: 86%;
+    left: 500px;
+    visibility:visible;
+  }
+
+  #ans4 {
+    position: absolute;
+    top: 94%;
+    left: 500px;
+    visibility:visible;
+  }
+
   button {
     background-color: purple;
     color: white;
@@ -46,5 +80,8 @@ header {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translatex(-50%, -50%);
+    
   }
+
+  
