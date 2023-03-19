@@ -1,0 +1,26 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #high-score {
+    margin-left: 10px;
+  }
+  
+  #timer {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
