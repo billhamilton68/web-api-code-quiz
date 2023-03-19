@@ -45,27 +45,27 @@ header {
     position: absolute;
     top: 70%;
     left: 500px;
-    visibility: visible;
+    visibility: hidden;
   }
 
   #ans2 {
     position: absolute;
     top: 78%;
     left: 500px;
-    visibility:visible;
+    visibility:hidden;
   }
   #ans3 {
     position: absolute;
     top: 86%;
     left: 500px;
-    visibility:visible;
+    visibility:hidden;
   }
 
   #ans4 {
     position: absolute;
     top: 94%;
     left: 500px;
-    visibility:visible;
+    visibility:hidden;
   }
 
   button {
